@@ -1,0 +1,84 @@
+List ot deistviq
+10:28 - git add .
+        $ git commit -m "Endpoint" // za setup
+10:29 - git push
+10:30 - git branch klonka1
+git branch klonka2
+git branch  // suzdavane na branchove
+git checkout klonka1
+10:31 -
+ changed text file
+ git commit -a -m "Branch1"
+ git push --set-upstream origin klonka1 // opravqne na purviq branch
+10:32 - git branch
+  git checkout klonka2
+changed text file
+10 : 37 -
+git checkout main
+git branch -D klonka1 shoto bqh zabrail da dobavq dva text faila // bqh naprail samo edin text document za tva iztrih purviq branch
+dobavqne na failove
+10 : 38 - 
+ git add .
+ git commit -m "Added missing text files"
+ git branch klonka1
+ git branch // resetup na purviq branch
+10:39 -
+ git checkout klonka1
+ changed files
+ git add .
+10:40 - 
+ $ git commit -a -m "Branch1" // opitvaiki se da commitna poluchih nqkvi stranni errori det ne gi znam za tva pochnah ot nachalo s novo repo
+Pochnah otnachalo asf
+
+10 : 43 
+$ git clone https://github.com/OledDisplay/Vuvedenie-praktichesko
+dobavqne na failove
+git add .
+$ git commit -m "Start"
+git push  // setup na repo
+10 : 47:
+ $ git branch Klonka1
+
+marti@LAPTOP-8SSBLD9S MINGW64 ~/allFolder/code/Vuvedenie-praktichesko (main)
+$ git branch Klonka2
+
+marti@LAPTOP-8SSBLD9S MINGW64 ~/allFolder/code/Vuvedenie-praktichesko (main)
+$ git branch
+  Klonka1
+  Klonka2
+* main  // createvam branchove
+10 : 48 
+ git checkout klonka1
+ promqna na failovete
+10 : 49 
+ git commit -a -m "Branch1"
+ git push --set-upstream origin klonkaq // push na purviq branch
+10 : 51
+git branch
+ git checkout klonka2
+change text files
+10:52:
+ $ git commit -a -m "Branch2"
+ $ git push --set-upstream origin klonka2 // vtori branch
+10: 53
+ git checkout main
+ git merge klonka1 // merge s purviq
+ $ git branch -d klonka1
+10 : 54
+ git push origin --delete klonka1 // iztrivane na branch 1
+10:55
+ git merge klonka2
+ merge conflict
+ git status // merge conflict
+10 : 56
+ changed text files // opravqne na conflict localy (kato promenqm text failovete)
+10 : 58
+ git add .
+ git status // chekvam dali sichko e ok
+git commit -m "Solved merge conflict"
+git push
+added Listofdeistviq file to folder
+git add Listofdeistviq.txt
+git commit -m "Added steps"
+git push
+
