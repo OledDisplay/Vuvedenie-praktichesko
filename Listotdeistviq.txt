@@ -1,3 +1,6 @@
+Link kum hranilishte:
+https://github.com/OledDisplay/Vuvedenie-praktichesko
+
 List ot deistviq
 10:28 - git add .
         $ git commit -m "Endpoint" // za setup
@@ -8,7 +11,7 @@ git branch  // suzdavane na branchove
 git checkout klonka1
 10:31 -
  changed text file
- git commit -a -m "Branch1"
+ git commit -a -m "Branch1" // stagevam promenite i pushka
  git push --set-upstream origin klonka1 // opravqne na purviq branch
 10:32 - git branch
   git checkout klonka2
@@ -39,14 +42,9 @@ git push  // setup na repo
 10 : 47:
  $ git branch Klonka1
 
-marti@LAPTOP-8SSBLD9S MINGW64 ~/allFolder/code/Vuvedenie-praktichesko (main)
 $ git branch Klonka2
-
-marti@LAPTOP-8SSBLD9S MINGW64 ~/allFolder/code/Vuvedenie-praktichesko (main)
 $ git branch
-  Klonka1
-  Klonka2
-* main  // createvam branchove
+ createvam branchove
 10 : 48 
  git checkout klonka1
  promqna na failovete
@@ -77,8 +75,17 @@ change text files
  git status // chekvam dali sichko e ok
 git commit -m "Solved merge conflict"
 git push
-added Listofdeistviq file to folder
-git add Listofdeistviq.txt
+added Listotdeistviq file to folder
+git add .
 git commit -m "Added steps"
+git push
+
+11:18
+osuznah che ne sum iztril vtoriq branch
+$ git branch -d klonka2
+$ git push origin --delete klonka2
+
+git add . // za text faila s deistviqta
+git commit -m "Final"
 git push
 
